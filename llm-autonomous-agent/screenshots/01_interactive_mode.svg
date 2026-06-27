@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <rect width="800" height="480" rx="12" fill="#1e1e2e"/>
+  <rect width="800" height="36" rx="12" fill="#313244"/>
+  <rect x="0" y="24" width="800" height="12" fill="#313244"/>
+  <circle cx="20" cy="18" r="6" fill="#f38ba8"/>
+  <circle cx="40" cy="18" r="6" fill="#a6e3a1"/>
+  <circle cx="60" cy="18" r="6" fill="#f9e2af"/>
+  <text x="400" y="22" font-family="monospace" font-size="12" fill="#cdd6f4" text-anchor="middle">terminal — llm-autonomous-agent</text>
+  <text x="20" y="65" font-family="monospace" font-size="13" fill="#a6e3a1">╔════════════════════════════════════════════════════╗</text>
+  <text x="20" y="83" font-family="monospace" font-size="13" fill="#a6e3a1">║       🤖  LLM Autonomous Agent  v1.0               ║</text>
+  <text x="20" y="101" font-family="monospace" font-size="13" fill="#a6e3a1">║   Powered by LangChain + GPT-4o + ReAct            ║</text>
+  <text x="20" y="119" font-family="monospace" font-size="13" fill="#a6e3a1">║ Tools: Search · Calc · Files · Code · Wiki         ║</text>
+  <text x="20" y="137" font-family="monospace" font-size="13" fill="#a6e3a1">╚════════════════════════════════════════════════════╝</text>
+  <text x="20" y="165" font-family="monospace" font-size="13" fill="#cdd6f4">Type your task. Commands: history, clear, quit</text>
+  <text x="20" y="193" font-family="monospace" font-size="13" fill="#89dceb">You: <tspan fill="#cdd6f4">What is sqrt(1764) + 15% of 500?</tspan></text>
+  <text x="20" y="218" font-family="monospace" font-size="13" fill="#f9e2af">🤖 Running task...</text>
+  <text x="20" y="243" font-family="monospace" font-size="13" fill="#cba6f7">Thought: <tspan fill="#cdd6f4">I need to compute sqrt(1764) + 0.15*500</tspan></text>
+  <text x="20" y="263" font-family="monospace" font-size="13" fill="#cba6f7">Action: <tspan fill="#89b4fa">calculator</tspan></text>
+  <text x="20" y="283" font-family="monospace" font-size="13" fill="#cba6f7">Input: <tspan fill="#cdd6f4">sqrt(1764) + 0.15 * 500</tspan></text>
+  <text x="20" y="303" font-family="monospace" font-size="13" fill="#a6e3a1">Observation: 117.0</text>
+  <text x="20" y="323" font-family="monospace" font-size="13" fill="#cba6f7">Final Answer: <tspan fill="#cdd6f4">117.0  (sqrt(1764)=42 + 75 = 117)</tspan></text>
+  <text x="20" y="358" font-family="monospace" font-size="13" fill="#a6e3a1">🤖 Agent: <tspan fill="#cdd6f4">The answer is 117.0</tspan></text>
+  <text x="20" y="378" font-family="monospace" font-size="13" fill="#6c7086">   (completed in 1 step)</text>
+  <text x="20" y="410" font-family="monospace" font-size="13" fill="#89dceb">You: <tspan fill="#6c7086">█</tspan></text>
+</svg>
